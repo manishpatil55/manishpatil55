@@ -10,9 +10,13 @@
 - 🎮 **Hobbies:** Gaming - GTA (online/offline), Minecraft, exploring new tech gadgets and trends around the globe
 - 🚀 **Aerospace & Tech Dreamer:** Passionate about aerospace, especially *SpaceX* and its innovative ideas. Inspired by *Elon Musk*, I aim to contribute to the space industry while also diving deep into tech, including cybersecurity and AI/ML. ✨
 
-always eager to learn and grow. Feel free to check out my projects and reach out!
+> always eager to learn and grow. Feel free to check out my projects and reach out!
 
 ---
+
+
+<!-- TO DO: add more details about me later -->
+
 
 🔍 **Curious?** See how changing your GitHub theme affects the image below! Switch between dark mode and light mode to see how the look transforms. It’s pretty fascinating to watch the change!
 
