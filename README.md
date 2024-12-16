@@ -1,5 +1,11 @@
 ## Hi there 👋
 
+
+![snake gif](https://github.com/manishpatil55/manishpatil55/blob/output/github-snake-dark.svg)
+
+
+
+
 <!--
 **manishpatil55/manishpatil55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
