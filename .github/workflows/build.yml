@@ -61,6 +61,6 @@ jobs:
         run: |
           git config --global user.name "manishpatil55/GitHub-Actions-Bot"
           git config --global user.email "github-actions-bot@manishpatil55.github.io"
-          git add output/dark_mode.svg  # Adjust the path of your SVG file
+          git add dark_mode.svg  # Adjust the path of your SVG file
           git commit -m "Auto-update dark_mode.svg" || echo "No changes to commit"
           git push origin output  # Push changes to 'output' branch
