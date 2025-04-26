@@ -75,14 +75,13 @@ def update_svg(total_repos, total_commits, total_stars, lines_of_code, uptime, s
     svg_content = svg_content.replace("<tspan x=\"370\" y=\"110\" class=\"keyColor\">Host</tspan>: <tspan class=\"valueColor\">G H Raisoni College of Engineering</tspan><tspan class=\"commentColor\"> #RIT</tspan>",
                                       f"<tspan x=\"370\" y=\"110\" class=\"keyColor\">Host</tspan>: <tspan class=\"valueColor\">{system_time}</tspan><tspan class=\"commentColor\"> #Updated</tspan>")
 
-    # Correct f-string for stats
-    svg_content = svg_content.replace("<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">43</tspan> {<tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">64</tspan>} | <tspan class=\"keyColor\">Commmits</tspan>: <tspan class=\"valueColor\">1,155  </tspan> | <tspan class=\"keyColor\">Stars</tspan>: <tspan class=\"valueColor\">37</tspan>",
-                                      f"<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">{total_repos}</tspan> <tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">{total_commits}</tspan>} | <tspan class=\"keyColor\">Stars</tspan>: <tspan class=\"valueColor\">{total_stars}</tspan>")
-
+    svg_content = svg_content.replace("<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">43</tspan> {<tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">37</tspan>}",
+                                      f"<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">{total_repos}</tspan> <tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">{total_commits}</tspan>")
     # Add the age in the appropriate place in your SVG template
     svg_content = svg_content.replace("<tspan x=\"370\" y=\"150\" class=\"keyColor\">Age</tspan>: <tspan class=\"valueColor\">18 years, 6 months, 12 days</tspan>",
                                       f"<tspan x=\"370\" y=\"150\" class=\"keyColor\">Age</tspan>: <tspan class=\"valueColor\">{age_years} years, {age_months} months, {age_days} days</tspan>")
 
+    
     # Save updated SVG to file
     with open(SVG_FILE_PATH, "w") as file:
         file.write(svg_content)
