@@ -8,8 +8,8 @@ GITHUB_API_URL = "https://api.github.com/users/{}/repos"
 GITHUB_USERNAME = os.getenv("USER_NAME")  # Set this in the secrets
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # GitHub token for accessing stats
 
-# Path to your SVG template
-SVG_FILE_URL = "https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/dark_mode.svg"
+# URL to your SVG file on GitHub
+SVG_FILE_URL = "https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/dark_mode.svg"  # Replace with the correct URL to your SVG
 
 # Your birthdate
 BIRTHDATE = datetime.datetime(2004, 11, 8)
@@ -29,14 +29,13 @@ def get_github_stats():
     else:
         return 0, 0, 0, 0
 
+# Function to get current system stats
 def get_system_stats():
     # Get current time and uptime
-    uptime_seconds = float(os.popen("cat /proc/uptime").read().split()[0])  # Convert to float
-    uptime = datetime.timedelta(seconds=uptime_seconds)  # Use the float value here
+    uptime = datetime.timedelta(seconds=int(os.popen("cat /proc/uptime").read().split()[0]))
     system_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     current_date = datetime.datetime.now().strftime('%d/%m/%Y')  # Format date as DD/MM/YYYY
     return uptime, system_time, current_date
-
 
 # Function to calculate age (uptime)
 def calculate_age(birthdate):
@@ -62,9 +61,13 @@ def calculate_age(birthdate):
 
 # Function to update SVG
 def update_svg(total_repos, total_commits, total_stars, lines_of_code, uptime, system_time, current_date, age_years, age_months, age_days):
-    # Open the template SVG file
-    with open(SVG_FILE_PATH, "r") as file:
-        svg_content = file.read()
+    # Download the SVG content from the GitHub repository
+    response = requests.get(SVG_FILE_URL)  # Make sure we use the correct URL
+    if response.status_code != 200:
+        print("Error downloading SVG file")
+        return
+
+    svg_content = response.text
 
     # Replace placeholders with dynamic data
     svg_content = svg_content.replace("<tspan x=\"370\" y=\"70\" class=\"keyColor\">OS</tspan>: <tspan class=\"valueColor\">Windows 10+, iOS</tspan>",
@@ -76,15 +79,15 @@ def update_svg(total_repos, total_commits, total_stars, lines_of_code, uptime, s
     svg_content = svg_content.replace("<tspan x=\"370\" y=\"110\" class=\"keyColor\">Host</tspan>: <tspan class=\"valueColor\">G H Raisoni College of Engineering</tspan><tspan class=\"commentColor\"> #RIT</tspan>",
                                       f"<tspan x=\"370\" y=\"110\" class=\"keyColor\">Host</tspan>: <tspan class=\"valueColor\">{system_time}</tspan><tspan class=\"commentColor\"> #Updated</tspan>")
 
-    svg_content = svg_content.replace("<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">43</tspan> {<tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">37</tspan>}",
-                                      f"<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">{total_repos}</tspan> <tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">{total_commits}</tspan>")
+    svg_content = svg_content.replace("<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">43</tspan> {<tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">64</tspan>} | <tspan class=\"keyColor\">Commmits</tspan>: <tspan class=\"valueColor\">1,155  </tspan> | <tspan class=\"keyColor\">Stars</tspan>: <tspan class=\"valueColor\">37</tspan>",
+                                      f"<tspan x=\"370\" y=\"490\" class=\"keyColor\">Repos</tspan>: <tspan class=\"valueColor\">{total_repos}</tspan> {<tspan class=\"keyColor\">Contrib_to</tspan>: <tspan class=\"valueColor\">{total_commits}</tspan>} | <tspan class=\"keyColor\">Stars</tspan>: <tspan class=\"valueColor\">{total_stars}</tspan>")
+
     # Add the age in the appropriate place in your SVG template
     svg_content = svg_content.replace("<tspan x=\"370\" y=\"150\" class=\"keyColor\">Age</tspan>: <tspan class=\"valueColor\">18 years, 6 months, 12 days</tspan>",
                                       f"<tspan x=\"370\" y=\"150\" class=\"keyColor\">Age</tspan>: <tspan class=\"valueColor\">{age_years} years, {age_months} months, {age_days} days</tspan>")
 
-    
     # Save updated SVG to file
-    with open(SVG_FILE_PATH, "w") as file:
+    with open("dark_mode_updated.svg", "w") as file:
         file.write(svg_content)
 
 if __name__ == "__main__":
