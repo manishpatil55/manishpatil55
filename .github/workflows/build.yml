@@ -10,7 +10,16 @@ on:
 
 jobs:
   generate_snake:
-    # ... (keep existing snake game job unchanged)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo for Snake Game generation
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Needed for commit history
+
+      # You can add other steps related to your snake game here if needed
+      - name: Placeholder for Snake Game
+        run: echo "Placeholder for Snake Game Job"  # Placeholder for snake game generation
 
   build_readme:
     runs-on: ubuntu-latest
@@ -52,6 +61,6 @@ jobs:
         run: |
           git config --global user.name "manishpatil55/GitHub-Actions-Bot"
           git config --global user.email "github-actions-bot@manishpatil55.github.io"
-          git add output/dark_mode.svg
-          git commit -m "Auto-update SVG" || echo "No changes to commit"
-          git push
+          git add output/dark_mode.svg  # Adjust the path of your SVG file
+          git commit -m "Auto-update dark_mode.svg" || echo "No changes to commit"
+          git push origin output  # Push changes to 'output' branch
