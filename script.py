@@ -91,7 +91,7 @@ def update_svg(total_repos, total_commits, total_stars, lines_of_code, uptime, s
     with open("dark_mode_updated.svg", "w") as file:
         file.write(svg_content)
 
-if __name__ == "__main__":
+if __name__ == "__output__":
     # Get stats
     total_repos, total_commits, total_stars, lines_of_code = get_github_stats()
     uptime, system_time, current_date = get_system_stats()
