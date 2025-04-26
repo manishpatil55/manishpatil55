@@ -37,7 +37,7 @@ def get_system_stats():
     current_date = datetime.datetime.now().strftime('%d/%m/%Y')  # Format date as DD/MM/YYYY
     return uptime, system_time, current_date
 
-# Function to calculate age
+# Function to calculate age (uptime)
 def calculate_age(birthdate):
     today = datetime.datetime.today()
     age_years = today.year - birthdate.year
@@ -70,7 +70,7 @@ def update_svg(total_repos, total_commits, total_stars, lines_of_code, uptime, s
                                       f"<tspan x=\"370\" y=\"70\" class=\"keyColor\">OS</tspan>: <tspan class=\"valueColor\">Linux</tspan>")
 
     svg_content = svg_content.replace("<tspan x=\"370\" y=\"90\" class=\"keyColor\">Uptime</tspan>: <tspan class=\"valueColor\">19 years, 9 months, 6 days</tspan>",
-                                      f"<tspan x=\"370\" y=\"90\" class=\"keyColor\">Uptime</tspan>: <tspan class=\"valueColor\">{uptime}</tspan>")
+                                      f"<tspan x=\"370\" y=\"90\" class=\"keyColor\">Uptime</tspan>: <tspan class=\"valueColor\">{age_years} years, {age_months} months, {age_days} days</tspan>")
 
     svg_content = svg_content.replace("<tspan x=\"370\" y=\"110\" class=\"keyColor\">Host</tspan>: <tspan class=\"valueColor\">G H Raisoni College of Engineering</tspan><tspan class=\"commentColor\"> #RIT</tspan>",
                                       f"<tspan x=\"370\" y=\"110\" class=\"keyColor\">Host</tspan>: <tspan class=\"valueColor\">{system_time}</tspan><tspan class=\"commentColor\"> #Updated</tspan>")
