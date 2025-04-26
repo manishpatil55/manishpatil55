@@ -9,7 +9,7 @@ GITHUB_USERNAME = os.getenv("USER_NAME")  # Set this in the secrets
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # GitHub token for accessing stats
 
 # Path to your SVG template
-SVG_FILE_PATH = "path/to/output/branch/dark_mode.svg"
+SVG_FILE_PATH = "**/output/branch/dark_mode.svg"
 
 # Your birthdate
 BIRTHDATE = datetime.datetime(2004, 11, 8)
