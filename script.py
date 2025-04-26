@@ -32,7 +32,8 @@ def get_github_stats():
 # Function to get current system stats
 def get_system_stats():
     # Get current time and uptime
-    uptime = datetime.timedelta(seconds=int(os.popen("cat /proc/uptime").read().split()[0]))
+    uptime_seconds = float(os.popen("cat /proc/uptime").read().split()[0])  # Convert uptime to float
+    uptime = datetime.timedelta(seconds=uptime_seconds)
     system_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     current_date = datetime.datetime.now().strftime('%d/%m/%Y')  # Format date as DD/MM/YYYY
     return uptime, system_time, current_date
