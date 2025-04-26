@@ -1,0 +1,52 @@
+name: Combined Workflow
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Snake game
+    - cron: "0 4 * * *"  # README update
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generate_snake:
+    # ... (keep existing snake game job unchanged)
+
+  build_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Needed for commit history
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('cache/requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r cache/requirements.txt
+
+      - name: Run README generator
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Add this
+        run: python today.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-update README" || echo "No changes to commit"
+          git push
