@@ -172,7 +172,7 @@
 -->
 <a href="https://github.com/manishpatil55/manishpatil55">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/main/dark_mode.svg">
-    <img alt="Manish Patil's GitHub Profile README" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/main/light_mode.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/dark_mode.svg">
+    <img alt="Manish Patil's GitHub Profile README" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/light_mode.svg">
   </picture>
 </a>
