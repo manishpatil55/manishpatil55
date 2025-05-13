@@ -1,48 +1,10 @@
-<!-- Snake eating contributions (with dark/light mode) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake.svg" />
-</picture>
-
-<!-- Pacman eating contributions (with dark/light mode) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
-  <img alt="github-pacman" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
-</picture>
-
-
-
-
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake-dark.svg">
-  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake-light.svg">
-</picture>
-
-
-
-
-###
-
-<div align="left">
-  <img src="https://raw.githubusercontent.com/manishpatil55/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  <img src="https://raw.githubusercontent.com/manishpatil55/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-  <img src="https://raw.githubusercontent.com/manishpatil55/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  <img src="https://raw.githubusercontent.com/manishpatil55/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
-</div>
-
-
 # Hey there 👋
 
-<!--  Snake eating live contributions  -->
+<!-- Snake eating contributions (with dark/light mode) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake.svg" />
 </picture>
 
 ---
