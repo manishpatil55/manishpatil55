@@ -7,6 +7,13 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake.svg" />
 </picture>
 
+<!-- Pacman GitHub Contribution Graph -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
+</picture>
+
 ---
 
 ## About Me
