@@ -31,6 +31,19 @@
 
 ---
 
+### Connect with me:
+
+[![website](./img/globe-light.svg)](https://manishpatil55.github.io#gh-light-mode-only)
+[![website](./img/globe-dark.svg)](https://manishpatil55.github.io#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/linkedin-light.svg)](https://in.linkedin.com/in/manishkakulde#gh-light-mode-only)
+[![website](./img/linkedin-dark.svg)](https://in.linkedin.com/in/manishkakulde#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/instagram-light.svg)](https://instagram.com/manishpatil.55#gh-light-mode-only)
+[![website](./img/instagram-dark.svg)](https://instagram.com/manishpatil.55#gh-dark-mode-only)
+
+---
+
 <picture align="right"> 
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
@@ -178,10 +191,4 @@
   </picture>
 </a>
 
-<a href="https://github.com/manishpatil55/manishpatil55">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/main/dark_mode.svg">
-    <img alt="Manish Patil's GitHub Profile README" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/main/light_mode.svg">
-  </picture>
-</a>
 
