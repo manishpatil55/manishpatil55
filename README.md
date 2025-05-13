@@ -1,3 +1,20 @@
+<!-- Snake eating contributions (with dark/light mode) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake.svg" />
+</picture>
+
+<!-- Pacman eating contributions (with dark/light mode) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
+  <img alt="github-pacman" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
+</picture>
+
+
+
+
 ###
 
 <picture>
