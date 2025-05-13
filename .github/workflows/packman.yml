@@ -21,24 +21,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate pacman (light)
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           output_path: dist/pacman.svg
 
-      - name: Generate pacman (dark)
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          output_path: dist/pacman-dark.svg
-          background_color: "#0d1117"
-          dot_color: "#39d353"
-
-      - name: Show generated files
-        run: ls -R dist
-
-      - name: Push pacman SVGs to output branch
+      - name: Push pacman.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
