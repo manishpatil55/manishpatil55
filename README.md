@@ -7,13 +7,6 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake.svg" />
 </picture>
 
-<!-- Pacman GitHub Contribution Graph -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
-  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman.svg" />
-</picture>
-
 ---
 
 ## About Me
@@ -191,28 +184,16 @@
 
 
 
--->
-
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/pacman-contribution-graph.svg">
-</picture>
-
 
 
 ###
 
-<div align="center">
+<div align="left">
   <img src="https://profile-counter.glitch.me/manishpatil55/count.svg?"  />
 </div>
 
 ###
 
-
-<img src="https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake.svg" alt="Snake animation" />
 
 
 <a href="https://github.com/manishpatil55/manishpatil55">
@@ -222,4 +203,4 @@
   </picture>
 </a>
 
-
+-->
