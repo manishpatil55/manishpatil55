@@ -61,17 +61,21 @@
 > Give it a try and see the results for yourself! 👀  
 
 
-
-<!--
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=dai8yewnucqjjqcjueoy94q16)
 ---
+
+
+![Alt text](https://https://spotify-widgets.vercel.app/api?user=dai8yewnucqjjqcjueoy94q16)
 
 <div align="right">
   <a href="https://open.spotify.com/user/dai8yewnucqjjqcjueoy94q16">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=dai8yewnucqjjqcjueoy94q16&count=5&unique=true" alt="Spotify recently played" />
+    <img src="https://spotify-widgets.vercel.app/api?user=dai8yewnucqjjqcjueoy94q16&count=5&unique=true" alt="Spotify recently played" />
   </a>
 </div>
--->
+
+
+
+[![Spotify](https://spotify-widgets.vercel.app/api/spotify)](https://open.spotify.com/user/dai8yewnucqjjqcjueoy94q16)
+
 
 
 <p align="right">
