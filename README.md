@@ -14,6 +14,7 @@
 **¡Hola!** 👋 I'm [**Manish**][website], currently pursuing my BTech degree and embarking on an exciting journey to become a developer. I’m passionate about diving into the tech world and am dedicated to mastering my craft with each step I take. 🚀
 
 [website]: https://manishpatil55.github.io
+
 ---
 
 <img align="left" alt="Coding" width="360" height="255" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
