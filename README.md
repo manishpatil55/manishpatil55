@@ -32,6 +32,10 @@
 
 ---
 
+<picture align="right"> 
+  <img width="370" align="right" alt="current music activity" src="https://spotify-widgets.vercel.app/api/spotify">
+</picture>
+
 ### Connect with me:
 
 [![website](./img/globe-light.svg)](https://manishpatil55.github.io#gh-light-mode-only)
@@ -43,6 +47,7 @@
 [![website](./img/instagram-light.svg)](https://instagram.com/manishpatil.55#gh-light-mode-only)
 [![website](./img/instagram-dark.svg)](https://instagram.com/manishpatil.55#gh-dark-mode-only)
 
+---
 ---
 
 <picture align="right"> 
@@ -62,9 +67,9 @@
 
 
 ---
-
+<!--
 [![Spotify](https://spotify-widgets.vercel.app/api/spotify)](https://open.spotify.com/user/dai8yewnucqjjqcjueoy94q16)
-
+-->
 
 
 <p align="right">
