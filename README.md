@@ -1,7 +1,6 @@
  <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,1,2&height=200&section=header&text=Manish%20Patil&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,1,2&height=200&section=header&text=Manish%20Patil&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" />
   
-# Hey there 👋
 
 <!-- Snake eating contributions (with dark/light mode) -->
 <picture>
@@ -19,7 +18,7 @@
 [website]: https://manishpatil55.github.io
 
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <img align="left" alt="Coding" width="360" height="255" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
 
@@ -35,7 +34,7 @@
 > always eager to learn and grow. Feel free to check out my projects and reach out!
 
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <picture align="right"> 
   <img width="370" align="right" alt="current music activity" src="https://spotify-widgets.vercel.app/api/spotify">
@@ -54,7 +53,7 @@
 
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <picture align="right"> 
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
@@ -72,7 +71,7 @@
 > Give it a try and see the results for yourself! 👀  
 
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!--
 [![Spotify](https://spotify-widgets.vercel.app/api/spotify)](https://open.spotify.com/user/dai8yewnucqjjqcjueoy94q16)
@@ -86,7 +85,7 @@
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,2,22&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,2,22&height=120&section=footer"/>
 
 
 
