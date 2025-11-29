@@ -1,3 +1,6 @@
+ <!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,1,2&height=200&section=header&text=Manish%20Patil&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" width="100%" />
+  
 # Hey there 👋
 
 <!-- Snake eating contributions (with dark/light mode) -->
@@ -15,7 +18,8 @@
 
 [website]: https://manishpatil55.github.io
 
----
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <img align="left" alt="Coding" width="360" height="255" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
 
@@ -30,7 +34,8 @@
 
 > always eager to learn and grow. Feel free to check out my projects and reach out!
 
----
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <picture align="right"> 
   <img width="370" align="right" alt="current music activity" src="https://spotify-widgets.vercel.app/api/spotify">
@@ -48,7 +53,8 @@
 [![website](./img/instagram-dark.svg)](https://instagram.com/manishpatil.55#gh-dark-mode-only)
 
 ---
----
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <picture align="right"> 
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
@@ -66,7 +72,8 @@
 > Give it a try and see the results for yourself! 👀  
 
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 <!--
 [![Spotify](https://spotify-widgets.vercel.app/api/spotify)](https://open.spotify.com/user/dai8yewnucqjjqcjueoy94q16)
 -->
@@ -76,7 +83,30 @@
   <img src="https://komarev.com/ghpvc/?username=manishpatil55&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
 
+
+
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,2,22&height=120&section=footer" width="100%" />
+
+
+
+
+<!--
 ---
+
+<div align="center">
+
+ Activity Graph --
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=manishpatil55&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ff6b6b" alt="Contribution Graph" />
+
+</div>
+
+---
+-->
+
+
+
+
 
 <!--
 <p align="center"> 
