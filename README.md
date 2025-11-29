@@ -1,5 +1,5 @@
- <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,1,2&height=200&section=header&text=Manish%20Patil&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" />
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,2,2&height=200&section=header&text=Manish%20Patil&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" />
   
 
 <!-- Snake eating contributions (with dark/light mode) -->
@@ -20,10 +20,11 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+
 <img align="left" alt="Coding" width="360" height="255" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
 
-- 💻 **Languages & Tools:** Python, Go, Git
-- 🔧 **Currently Learning:** AI/ML, Cloud Computing, Cybersecurity
+- 💻 **Languages & Tools:** Python, Go, Git, VS Code, AntiGravity,..
+- 🔧 **Currently Learning:** AI/ML, Cloud Computing,..
 - ☁️ **Google Cloud Skills:** Actively engaged in Google Cloud skill boost courses, which teach me about Google Cloud and its tools. See my skill badges [**here**](https://www.cloudskillsboost.google/public_profiles/d34b4468-ff57-480d-8675-b9a4e550d50b)
 - 🌟 **Google Arcade:** Participating in Google Arcade, where I tackle monthly challenges to sharpen my Google Cloud expertise, and I'm currently in the Diamond League.
 - 🌱 **Interests:** Cybersecurity, Open Source Projects, AI & ML, staying updated with new tech developments
@@ -85,7 +86,7 @@
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,2,22&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,2,2&height=120&section=footer"/>
 
 
 
