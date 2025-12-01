@@ -1,5 +1,5 @@
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,4,8&height=200&section=header&text=Manish%20Patil&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,4,20&height=200&section=header&text=Manish%20Patil&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" width="100%" />
 
   
 
@@ -88,7 +88,7 @@
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,10,2&height=120&section=footer" width="100%"/>
+
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=13,4,20&height=120&section=footer" width="100%"/>
